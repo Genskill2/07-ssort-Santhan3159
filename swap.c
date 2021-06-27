@@ -1,12 +1,13 @@
 #include<stdio.h>
 
 void swap_max(int arr[], int l, int n){
- int a=0,b=0;
+ int b=0;
  int p=arr[n];
  for(int i=n;i<l;i++){
-  if(arr[i]>p)
+  if(arr[i]>p){
    p=arr[i];
    b=i;
+  }
  }
  int x=arr[b];
  arr[b]=arr[n];
