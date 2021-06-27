@@ -9,9 +9,11 @@ void swap_max(int arr[], int l, int n){
    b=i;
   }
  }
+ if(p!=arr[n]){
  int x=arr[b];
  arr[b]=arr[n];
  arr[n]=x;
+ }
  
 
  }
